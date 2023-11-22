@@ -6,34 +6,42 @@
     <title>UniDesign</title>
   </head>
   <body>
-    <header>
-      <span>UniDesign</span>
-      <div>
-        <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#">Hire Me</a></li>
+    <header class="header">
+      <span class="logo">UniDesign</span>
+      <div class="menu-container">
+        <ul class="menu">
+          <li class="menu-item"><a href="#">About Me</a></li>
+          <li class="menu-item"><a href="#">Projects</a></li>
+          <li class="menu-item"><a href="#">Contacts</a></li>
+          <li class="menu-item"><a href="#">Hire Me</a></li>
         </ul>
       </div>
     </header>
-    <main>
-      <section>
-        <h3>Welcome To My PortFolio</h3>
-        <h1>Hi , I am Steven UI/UX <span>Desginer</span></h1>
-        <p>
-          Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio
-          et, plateo erat est sed turpis hoc equit
-        </p>
-        <div>
-          <img src="../assets/images/Photo.png" alt="Photo Steven" />
+    <main class="main">
+      <section class="first-banner">
+        <div class="first-banner-container">
+          <h3 class="first-banner-subtitle">Welcome To My PortFolio</h3>
+          <h1 class="first-banner-title">
+            Hi , I am Steven UI/UX <span>Desginer</span>
+          </h1>
+          <p class="first-banner-text">
+            Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio
+            et, plateo erat est sed turpis hoc equit
+          </p>
         </div>
         <div>
-          <button>Hire Me</button>
-          <button>My Project</button>
+          <img
+            class="first-banner-image"
+            src="../assets/images/Photo.png"
+            alt="Photo Steven"
+          />
+        </div>
+        <div>
+          <button class="first-banner-button button-blue">Hire Me</button>
+          <button class="first-banner-button button-limpid">My Project</button>
         </div>
       </section>
-      <section>
+      <section class="second-part">
         <h1>About Me</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -48,11 +56,11 @@
           <button>Hire Me</button>
         </div>
       </section>
-      <section>
+      <section class="third-part">
         <h1>My Projects</h1>
         <p>Lorem Ipsum is simply dummy text of the printing</p>
       </section>
-      <section>
+      <section class="fourth-part">
         <h2>Contact Me</h2>
         <p>Lorem Ipsum is simply dummy text of the printing</p>
         <input type="Email" />
