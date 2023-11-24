@@ -28,24 +28,44 @@
     font-size: 24px;
     line-height: 36px;
  }
- 
+
+ body {
+   width: 95vw;
+   height: 95vh;
+   padding-left: 78px;
+ }
+
+ a {
+   text-decoration: none;
+   color: #686565;
+ }
+
+ span {
+   color:#F2BD00;
+   font-size: 48px;
+   line-height: 72px;
+   font-family: Poppins-Bold;
+   font: 700;
+ }
+
  .header {
     display: flex;
     justify-content: space-between;
- }
-
- body {
-    width: 100vw;
-    height: 100vh;
+    margin-left: auto;
+    padding: 78px 45px;
  }
 
  .menu-container {
-    width: 70%;
+    width: 50%;
  }
 
  .menu {
     display: flex;
     justify-content: space-between;
+ }
+
+ .menu-item {
+   list-style-type: none;
  }
 
  .logo {
@@ -55,3 +75,35 @@
     line-height: 72px;
     color:#0E0578;
  }
+
+ .first-banner {
+   display: flex;
+   flex-direction: column;
+ }
+
+  .first-banner-image {
+   display: flex;
+   justify-content: right;
+  }
+
+  .first-banner-container {
+   color: #2000E7;
+  }
+
+  .first-banner-subtitle {
+   font-size: 30px;
+   line-height: 45px;
+   font-family: Poppins-Regular;
+   font: 400;
+  }
+
+  .first-banner-title {
+   font-size: 48px;
+   line-height: 72px;
+   font-family: Poppins-Bold;
+   font: 700;
+  }
+
+  .first-banner-text {
+   color: #383838;
+  }
