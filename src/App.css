@@ -248,9 +248,48 @@
    background-color: #FFFFFF;
    border: none;
   }
-
+  
   .footer {
+   background-color:rgba(255, 214, 150, 0.2);
+   font-family: Jost;
+   font: 400;
+   font-size: 31px;
+   line-height: 44.8px;
+   color:#000000;
+  }
+
+  .footer-header {
+   display: flex;
+   justify-content: space-between;
+  }
+
+  .footer-menu {
    display: flex;
    justify-content: space-around;
+   text-decoration: none;
+   list-style-type: none;
+  }
+
+  .footer-nav {
+   display: flex;
+   justify-content: space-between;
+  }
+  
+  .black {
+   background-color: #000000;
+   color:#FFFFFF;
+   padding: 10px 20px;
+   border-radius: 30px;
+   width: 300px;
+   height: 70px;
+  }
+
+  .pink {
+   background-color: #F965FC;
+   color: #FFFFFF;
+   padding: 10px 20px;
+   border-radius: 30px;
+   width: 180px;
+   height: 70px;
   }
    
