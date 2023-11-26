@@ -7,16 +7,19 @@
   </head>
   <body>
     <header class="header">
-      <span class="logo">UniDesign</span>
-      <div class="menu-container">
-        <ul class="menu">
-          <li class="menu-item"><a href="#">About Me</a></li>
-          <li class="menu-item"><a href="#">Projects</a></li>
-          <li class="menu-item"><a href="#">Contacts</a></li>
-          <li class="menu-item"><a href="#">Hire Me</a></li>
-        </ul>
+      <div class="header-container">
+        <span class="logo">UniDesign</span>
+        <div class="menu-container">
+          <ul class="menu">
+            <li class="menu-item"><a href="#">About Me</a></li>
+            <li class="menu-item"><a href="#">Projects</a></li>
+            <li class="menu-item"><a href="#">Contacts</a></li>
+            <li class="menu-item"><a href="#">Hire Me</a></li>
+          </ul>
+        </div>
       </div>
     </header>
+    <div class="whitespace"></div>
     <main class="main">
       <section class="first-banner">
         <div class="first-banner-container">
@@ -28,12 +31,14 @@
             Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio
             et, plateo erat est sed turpis hoc equit
           </p>
+          <div class="button-container">
+            <button class="first-banner-button button-blue">Hire Me</button>
+            <button class="first-banner-button button-limpid">
+              My Project
+            </button>
+          </div>
         </div>
-        <div class="first-button-container">
-          <button class="first-banner-button button-blue">Hire Me</button>
-          <button class="first-banner-button button-limpid">My Project</button>
-        </div>
-        <div>
+        <div class="first-banner-image-container">
           <img
             class="first-banner-image"
             src="../assets/images/Photo.png"
@@ -41,50 +46,145 @@
           />
         </div>
       </section>
+      <div class="whitespace"></div>
       <section class="second-part">
         <div class="second-part-text-container">
           <h2 class="second-part-title">About Me</h2>
           <p class="second-part-text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has .
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has .
           </p>
+          <div class="button-container">
+            <button class="first-banner-button button-blue">Hire Me</button>
+          </div>
         </div>
         <div class="second-part-image">
           <img src="../assets/images/1 1.svg" alt="" />
         </div>
-        <div>
-          <button class="second-part-button button-blue">Hire Me</button>
-        </div>
       </section>
+      <div class="whitespace"></div>
       <section class="third-part">
         <div class="third-part-text-container">
           <h2 class="third-part-title">My Projects</h2>
-          <p class="third-part-text">Lorem Ipsum is simply dummy text of the printing</p>
+          <p class="third-part-text">
+            Lorem Ipsum is simply dummy text of the printing
+          </p>
         </div>
-        <div class="third-part-image-container">
-          <div class="image-one"></div>
-          <div class="image-two"></div>
-          <div class="image-three"></div>
-          <div class="image-four"></div>
-          <div class="image-five"></div>
-          <div class="image-six"></div>
-          <div class="image-seven"></div>
-          <div class="image-eight"></div>
-          <div class="image-nine"></div>
+        <div class="third-part-image-table">
+          <div class="third-part-image-line">
+            <div class="image-one cell">
+              <img src="../assets/images/table-1.svg" alt="" />
+            </div>
+            <div class="image-two cell">
+              <img src="../assets/images/table-1-2.svg" alt="" />
+            </div>
+            <div class="image-three cell">
+              <img src="../assets/images/table-1.svg" alt="" />
+            </div>
+          </div>
+          <div class="third-part-image-line">
+            <div class="image-four cell">
+              <img src="../assets/images/table-2.svg" alt="" />
+            </div>
+            <div class="image-five cell">
+              <img src="../assets/images/table-2.svg" alt="" />
+            </div>
+            <div class="image-six cell">
+              <img src="../assets/images/table-2.svg" alt="" />
+            </div>
+          </div>
+          <div class="third-part-image-line">
+            <div class="image-seven cell">
+              <img src="../assets/images/table-3.svg" alt="" />
+            </div>
+            <div class="image-eight cell">
+              <img src="../assets/images/table-3.svg" alt="" />
+            </div>
+            <div class="image-nine cell">
+              <img src="../assets/images/table-3.svg" alt="" />
+            </div>
+          </div>
         </div>
       </section>
+      <div class="whitespace"></div>
       <section class="fourth-part">
-        <h1>Contact Me</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing</p>
-        <input type="Email" />
-        <input type="Password" />
-        <input type="Message.." />
-
-        <button>Contact</button>
+        <div class="fourth-part-container">
+          <h1 class="fourth-part-title">Contact Me</h1>
+          <p class="fourth-part-text">
+            Lorem Ipsum is simply dummy text of the printing
+          </p>
+          <div class="fourth-part-container-image-text">
+            <div class="fourth-part-container-text">
+              <form action="url">
+                <p class="fourth-container-text">
+                  <textarea
+                    name="Email"
+                    cols="50"
+                    rows="2"
+                    readonly
+                    placeholder="Email"
+                  >
+Email</textarea
+                  >
+                </p>
+                <p class="fourth-container-text">
+                  <textarea
+                    name="Password"
+                    cols="50"
+                    rows="2"
+                    readonly
+                    placeholder="Password"
+                  >
+Password</textarea
+                  >
+                </p>
+                <p class="fourth-container-text">
+                  <textarea
+                    name="Message.."
+                    cols="60"
+                    rows="15"
+                    readonly
+                    placeholder="Message.."
+                  >
+Message..</textarea
+                  >
+                </p>
+                <button class="fourth-button">Contact</button>
+                </p>
+              </form>
+              <img src="../assets/images/image-4.svg" alt="" />
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <div class="whitespace"></div>
+    <footer class="footer">
+      <div class="footer-header">
+        <h2>UniDesign</h2>
+        <div class="footer-nav">
+          <ul>
+            <li>Home</li>
+            <li>Overview</li>
+            <li>Pricing</li>
+            <li>About</li>
+          </ul>
+        </div>
+
+        <ul>
+          <li>How It Works?</li>
+          <li>Pay?</li>
+          <li>Question?</li>
+          <li>Contact?</li>
+        </ul>
+
+        <ul>
+          <li>(+000) 1234-6789</li>
+          <li>116 Archlor Road Broadlaband, NewYork (NYC) 1205</li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
